@@ -9,6 +9,6 @@ This is a simple vpc created in Terraform. This allows quick and easy access to 
 1 Private Subnet
 
 
-Diaggram below
+Diagram below shows simple VPC created:
 
 ![Network Diagram](https://github.com/Haydz/tf_simple_vpc/blob/main/network.png)
