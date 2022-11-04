@@ -11,4 +11,4 @@ This is a simple vpc created in Terraform. This allows quick and easy access to 
 
 Diaggram below
 
-![Network Diagram](network.jpg)
+![Network Diagram](https://github.com/Haydz/tf_simple_vpc/blob/main/network.png)
