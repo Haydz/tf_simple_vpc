@@ -4,8 +4,6 @@ resource "aws_vpc" "vpc" {
   enable_dns_hostnames = true
   tags = {
     Name = "Simple-VPC"
-
-    #Environment = var.infra_env
     ManagedBy = "terraform"
   }
 }
