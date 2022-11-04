@@ -1,6 +1,12 @@
 # tf_simple_vpc
 This is a simple vpc created in Terraform. This allows quick and easy access to a VPC for testing and learning. The VPC creates a Public subnet with internet access and a private subnet.
 
+## Please Note: SSH key
+Upon creation of the EC2 servers SSH keys are added. These are added from AWS itself, meaning from the console. There should be a saved user SSH key within AWS (normally made when launching an EC2 for the first time).
+
+Within `variables.tf` edit the SSHkey variable to add your own.
+
+
 ## Systems Created
 2 Amazon Linux EC2s
 
@@ -10,6 +16,8 @@ This is a simple vpc created in Terraform. This allows quick and easy access to 
 
 ## Update Script supplied
 A simple update script is supplied to show adding user data with Terraform
+
+
 
 Diagram below shows simple VPC created:
 
